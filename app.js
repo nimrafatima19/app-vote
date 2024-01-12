@@ -1,14 +1,14 @@
 let addCandidateBtn = document.getElementById("addCandidateBtn");
         let candidateInput = document.getElementById("candidateInput");
         let candidates = [
-            { name: "Waqaar", image: "images/vote2.jpg" },
-            { name: "Ahmed", image: "path/to/ahmed.jpg" },
-            { name: "Abdullah", image: "path/to/abdullah.jpg" },
-            { name: "Anas", image: "path/to/anas.jpg" },
-            { name: "Arshad", image: "path/to/arshad.jpg" }
+            { name: " Muslim League(N)", image: "images/vote2.jpg" },
+            { name: " PPP", image: "path/to/ahmed.jpg" },
+            { name: " PML(N)", image: "path/to/abdullah.jpg" },
+            { name: "PTI", image: "path/to/anas.jpg" },
+            { name: "MQM", image: "path/to/arshad.jpg" }
         ];
 
-        addCandidateBtn.addEventListener("click", () => {
+        addCandidateBtn .addEventListener("click", () => {
             candidates.push({ name: candidateInput.value, image: "images/vote4.jpg" });
             candidateInput.value = "";
             displayCandidates();
