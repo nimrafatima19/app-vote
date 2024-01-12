@@ -1,8 +1,8 @@
 let addCandidateBtn = document.getElementById("addCandidateBtn");
         let candidateInput = document.getElementById("candidateInput");
         let candidates = [
-            { name: " Muslim League(N)", image: "images/vote2.jpg" },
-            { name: " PPP", image: "path/to/ahmed.jpg" },
+            { name: " Muslim League(N)", image: "images/pmln.png" },
+            { name: " PPP", image: "images/ppp.png" },
             { name: " PML(N)", image: "path/to/abdullah.jpg" },
             { name: "PTI", image: "path/to/anas.jpg" },
             { name: "MQM", image: "path/to/arshad.jpg" }
