@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/vote4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: #ffffff52;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.app-title {
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px !important;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px #000000a1;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+#candidateInput {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#addCandidateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-image: url(images/vote4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+}
+
+.candidates-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.candidates-table th, .candidates-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.candidates-table th {
+    color: #fff;
+}
+
+.candidates-table tr:hover {
+    background-color: #f0f0f0;
+}
+table tr {
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px -2px rgba(0,0,0,0.12);
+    overflow: hidden !important;
+    margin-bottom: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+table tr td {
+    width: 100% !important;
+    border: unset !important;
+}
+table tr td:last-child {
+    text-align: end !important;
+    padding-right: 20px !important;
+}
+table tr td:first-child {
+    padding-left: 20px !important;
+}
+.main-container {
+    backdrop-filter: blur(15px);
+    background: #ffffff4d;
+}
+.candidates-table th, .candidates-table td {
+    color: #fff ;
+    
+}
+table tr {
+    background: #ffffff8c !important;
+}
+table tr:hover {
+    background: #fff !important;
+}
+input#candidateInput {
+    background: #fff !important;
+}
+table tr:hover td{
+    color:#000;
+}
