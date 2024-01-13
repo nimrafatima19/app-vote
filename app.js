@@ -2,14 +2,14 @@ let addCandidateBtn = document.getElementById("addCandidateBtn");
         let candidateInput = document.getElementById("candidateInput");
         let candidates = [
             { name: " Muslim League(N)", image: "images/pmln.png" },
-            { name: " PPP", image: "images/ppp.png" },
-            { name: " PML(N)", image: "path/to/abdullah.jpg" },
-            { name: "PTI", image: "path/to/anas.jpg" },
-            { name: "MQM", image: "path/to/arshad.jpg" }
+            { name: " Pakistan Peoples Party", image: "images/ppp.png" },
+            { name: "Jammat e Islami", image: "images/jammat.png" },
+            { name: "PTI", image: "images/bat.png" },
+            { name: "MQM", image: "images/mqm.png" }
         ];
 
         addCandidateBtn .addEventListener("click", () => {
-            candidates.push({ name: candidateInput.value, image: "images/vote4.jpg" });
+            candidates.push({ name: candidateInput.value, image: "images/humanIcon.png" });
             candidateInput.value = "";
             displayCandidates();
         });

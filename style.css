@@ -17,23 +17,30 @@ body {
 }
 
 .main-container {
-    background-color: #ffffff52;
+    
+    background-color: #089c2d52;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     text-align: center;
+    
 }
 
 .app-title {
-    color: #000;
+    color: #022b0b;
     font-family: 'Dancing Script', cursive;
-    font-size: 25px !important;
+    font-size: 30px !important;
     margin-top: 0;
     text-shadow: 1px 1px 3px #000000a1;
 }
 
 .input-section {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 #candidateInput {
@@ -45,9 +52,10 @@ body {
 }
 
 #addCandidateBtn {
+  
     padding: 10px 20px;
-    font-size: 16px;
-    background-image: url(images/vote4.jpg);
+    font-size: 15px;
+    background-image: url(images/back1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,6 +64,8 @@ body {
     color: #fff;
     cursor: pointer;
     font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .candidates-table {
